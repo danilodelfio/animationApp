@@ -1,6 +1,6 @@
 <h2>Login</h2>
 
-<form (ngSubmit)="login()">
+<form (ngSubmit)="login()" *ngIf="!isLogged">
 
     <div class="form-group">
         <label>Username</label>
@@ -16,6 +16,7 @@
 
     <div class="form-group">
         <button type="submit" class="btn btn-info">Login</button>
-        <button type="button" class="btn btn-danger" (click)="logout()">Logout</button>
+        
     </div>
 </form>
+<button type="button" class="btn btn-danger" (click)="logout()" *ngIf="isLogged" >Logout</button>

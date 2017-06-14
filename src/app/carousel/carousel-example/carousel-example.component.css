@@ -33,6 +33,20 @@
   height: 32rem;
 }
 
+.opaque-caption {
+  background-color: rgba(0,0,0,.5);
+  left: 0;
+  right: 0;
+}
+
+h1{
+  margin-left: 1%;
+  margin-right: 1%;
+}
+p{
+  margin-left: 1%;
+  margin-right: 1%;
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
