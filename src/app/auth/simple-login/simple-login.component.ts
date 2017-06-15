@@ -35,7 +35,7 @@ export class LoginComponent implements OnInit {
 
     logout() {
       this.service.logout();
-      alert('Loggin out ' + this.service.isLoggedIn());
+      alert('Logged out ');
     }
 
     get isLogged() {
